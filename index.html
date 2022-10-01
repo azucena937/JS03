@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora días</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <br>
+    <h1 class="-sm"> Calculadora de días</h1>
+    
+    <div class="container border border-3 rounded-2 w-50 p-5 mt-6">
+        <div class="row mx-auto">
+            <div class="col">
+                <div class="row gap-2" id="Llenar">
+                   <input id="day" class="col-md form-control" type="number" placeholder="Día" />
+                   <input id="month" class="col-md form-control" type="number" placeholder="Mes" />
+                   <input id="year" class="col-md form-control" type="number" placeholder="Año" />
+                <p></p>
+                   <div class="row">
+                    <button class="btn btn-outline-success" onclick="calcularFecha()">Calcular</button>
+                <p>
+
+                </p>
+                <div class="row">
+                    <input id="result" class="form-control" readonly disabled />
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
